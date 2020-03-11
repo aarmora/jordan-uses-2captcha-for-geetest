@@ -1,0 +1,39 @@
+{
+	"name": "jordan-uses-2captcha-for-geetest",
+	"version": "1.0.0",
+	"description": "Jordan shows how to use 2captcha to solve GeeTest when web scraping.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-uses-2captcha-for-geetest.git"
+	},
+	"keywords": [
+		"geetest",
+		"2captcha",
+		"typescript",
+		"javascript"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-uses-2captcha-for-geetest/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-uses-2captcha-for-geetest#readme",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"cheerio": "^1.0.0-rc.3",
+		"dotenv": "^8.2.0",
+		"puppeteer": "^2.1.1",
+		"puppeteer-extra": "^3.1.9",
+		"puppeteer-extra-plugin-stealth": "^2.4.9"
+	},
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/cheerio": "^0.22.16",
+		"@types/dotenv": "^8.2.0",
+		"@types/puppeteer": "^2.0.1"
+	}
+}
